@@ -112,5 +112,3 @@ $RECYCLE.BIN/
 # FAISS vector store
 faiss_index/
 
-# Specific file for the project
-codebasics_faqs.csv

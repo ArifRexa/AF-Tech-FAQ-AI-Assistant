@@ -33,7 +33,7 @@ def create_vector_db():
     try:
         # Load data from the FAQ sheet
         logger.info("Loading CSV data")
-        loader = CSVLoader(file_path='codebasics_faqs.csv', source_column="prompt", encoding='ISO-8859-1')
+        loader = CSVLoader(file_path='af_tech_faqs.csv', source_column="prompt", encoding='ISO-8859-1')
         data = loader.load()
 
         # Create a FAISS instance for vector database from 'data'
